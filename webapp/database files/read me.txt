@@ -1,0 +1,3 @@
+1. make "students" named table in the database named "apu"
+2. make users" named table in the database named "login"
+

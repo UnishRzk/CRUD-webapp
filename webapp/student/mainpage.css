@@ -1,0 +1,126 @@
+/* ================================ TYPING ANIMATION ====================================== */
+
+.wrapper {
+    height: 15vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center
+  }
+  
+  .typing-demo {
+    width: 32.2ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: black;
+    
+  }
+    
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+  /* ====================== TABLE =============================== */
+  *{
+    margin:0;
+    padding: 0;
+    outline: 0;
+   }
+  /* .filter{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 100vh;
+    margin: 0%;
+    background: rgb(151,86,237);;
+  background: linear-gradient(90deg, rgba(151,86,237,1) 0%, rgba(227,209,250,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1);
+   opacity: .7;
+   }   */
+ 
+
+  table{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom: 60px;
+   z-index: 2;
+   width: 85%; 
+   border-collapse: collapse;
+   border-spacing: 0;
+   box-shadow: 0 2px 15px rgba(64,64,64,.7);
+  
+  }
+  td , th{
+   padding: 15px 20px;
+   text-align: center;
+   
+  
+  }
+
+  th{
+   background-color: #ba68c8;
+   color: #fafafa;
+   font-family: 'Open Sans',Sans-serif;
+   font-weight: 200;
+   text-transform: uppercase;
+  
+  }
+  tr{
+   width: 100%;
+   background-color: #fafafa;
+   font-family: 'Montserrat', sans-serif;
+  }
+  tr:nth-child(even){
+   background-color: #eeeeee;
+  }
+
+
+  /* ================================ BUTTON ======================================== */
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button4 {
+    position: absolute;
+      left:77% ;
+    border-radius: 30px;
+    background-color: #950cde;
+}
+.button1 {
+    border-radius: 30px;
+    background-color: #D12C2C;
+}
+.button2 {
+    border-radius: 30px;
+    background-color: #D1D02A;
+}
+.button3 {
+  position: relative;
+  border-radius: 30px;
+    background-color: #FF6F91;
+    left: 87%;
+}

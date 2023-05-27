@@ -1,0 +1,1 @@
+paste this whole folder in your "htdocs" folder and export the database files
